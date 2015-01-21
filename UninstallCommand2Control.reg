@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+; This script remove mapping of Left Command key to Left Control key.
+; Author: Konstantin Bulenkov (konstantin@bulenkov.com)
+; http://bulenkov.com
+; http://github.com/bulenkov/
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=-
